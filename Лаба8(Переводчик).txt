@@ -1,0 +1,225 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+
+	setlocale(0, "");
+
+	cout << "\x1b[96m[+]Переводчик\x1b[0m" << endl;
+	cout << endl;
+	cout << "\x1b[93m[1]Русские слова\x1b[0m" << endl;
+	cout << "\x1b[93m[2]Английские слова\x1b[0m" << endl;
+	cout << endl;
+	cout << "\x1b[91m[3]Выход\x1b[0m" << endl;
+	cout << endl;
+	cout << "\x1b[92m[+]Выбирете вариант: \x1b[0m" << endl;
+
+	int select;
+	std::cin >> select;
+
+	
+
+	switch (select)
+	{
+	case 1:
+		cout << endl;
+		
+		cout << "\x1b[93m[1]Картошка\x1b[0m" << endl;
+		cout << "\x1b[93m[2]Морковь\x1b[0m" << endl;
+		cout << "\x1b[93m[3]Машина\x1b[0m" << endl;
+		cout << "\x1b[93m[4]Дом\x1b[0m" << endl;
+		cout << "\x1b[93m[5]Кот\x1b[0m" << endl;
+		cout << "\x1b[93m[6]Собака\x1b[0m" << endl;
+		cout << "\x1b[93m[7]Тарелка\x1b[0m" << endl;
+		cout << "\x1b[93m[8]Блюдце\x1b[0m" << endl;
+		cout << "\x1b[93m[9]Плошка\x1b[0m" << endl;
+		cout << "\x1b[93m[10]Нож\x1b[0m" << endl;
+		cout << "\x1b[93m[11]Вилка\x1b[0m" << endl;
+		cout << "\x1b[93m[12]Лопата\x1b[0m" << endl;
+		cout << "\x1b[93m[13]Дорога\x1b[0m" << endl;
+		cout << "\x1b[93m[14]Зеркало\x1b[0m" << endl;
+		cout << "\x1b[93m[15]Светофор\x1b[0m" << endl;
+		
+		cout << endl;
+		cout << "\x1b[92m[+]Выберите один из вариантов: \x1b[0m" << endl;
+		int select2;
+		std::cin >> select2;
+		
+		switch (select2)
+		{
+		case 1:
+			cout << "\x1b[93m[+]Перевод: potato -> картошка\x1b[0m" << endl;
+			return 0;
+			break;
+		case 2:
+			cout << "\x1b[93m[+]Перевод: carrot -> морковь\x1b[0m" << endl;
+			return 0;
+			break;
+		case 3:
+			cout << "\x1b[93m[+]Перевод: car -> машина\x1b[0m" << endl;
+			return 0;
+			break;
+		case 4:
+			cout << "\x1b[93m[+]Перевод: house -> дом\x1b[0m" << endl;
+			return 0;
+			break;
+		case 5:
+			cout << "\x1b[93m[+]Перевод: cat -> кот\x1b[0m" << endl;
+			return 0;
+			break;
+		case 6:
+			cout << "\x1b[93m[+]Перевод: dog -> собака\x1b[0m" << endl;
+			return 0;
+			break;
+		case 7:
+			cout << "\x1b[93m[+]Перевод: plate -> тарелка\x1b[0m" << endl;
+			return 0;
+			break;
+		case 8:
+			cout << "\x1b[93m[+]Перевод: saucer -> блюдце\x1b[0m" << endl;
+			return 0;
+			break;
+		case 9:
+			cout << "\x1b[93m[+]Перевод: вowl -> плюшка\x1b[0m" << endl;
+			return 0;
+			break;
+		case 10:
+			cout << "\x1b[93m[+]Перевод: knife -> нож\x1b[0m" << endl;
+			return 0;
+			break;
+		case 11:
+			cout << "\x1b[93m[+]Перевод: fork -> вилка\x1b[0m" << endl;
+			return 0;
+			break;
+		case 12:
+			cout << "\x1b[93m[+]Перевод: shovel -> лопата\x1b[0m" << endl;
+			return 0; 
+			break;
+		case 13:
+			cout << "\x1b[93m[+]Перевод: road -> дорога\x1b[0m" << endl;
+			return 0;
+			break;
+		case 14:
+			cout << "\x1b[93m[+]Перевод: mirror -> зеркало\x1b[0m" << endl;
+			return 0;
+			break;
+		case 15:
+			cout << "\x1b[93m[+]Перевод: traffic light -> светофор\x1b[0m" << endl;
+			return 0;
+			break;
+		default:
+			cout << "\x1b[91m[+]Ошиба ввода\x1b[0m";
+			return 0;
+			break;
+		}
+
+
+		break;
+	case 2:
+		cout << endl;
+
+		cout << "\x1b[93m[1]potato\x1b[0m" << endl;
+		cout << "\x1b[93m[2]carrot\x1b[0m" << endl;
+		cout << "\x1b[93m[3]car\x1b[0m" << endl;
+		cout << "\x1b[93m[4]house\x1b[0m" << endl;
+		cout << "\x1b[93m[5]cat\x1b[0m" << endl;
+		cout << "\x1b[93m[6]dog\x1b[0m" << endl;
+		cout << "\x1b[93m[7]plate\x1b[0m" << endl;
+		cout << "\x1b[93m[8]saucer\x1b[0m" << endl;
+		cout << "\x1b[93m[9]Bowl\x1b[0m" << endl;
+		cout << "\x1b[93m[10]knife\x1b[0m" << endl;
+		cout << "\x1b[93m[11]fork\x1b[0m" << endl;
+		cout << "\x1b[93m[12]shovel\x1b[0m" << endl;
+		cout << "\x1b[93m[13]road\x1b[0m" << endl;
+		cout << "\x1b[93m[14]mirror\x1b[0m" << endl;
+		cout << "\x1b[93m[15]traffic light\x1b[0m" << endl;
+
+		cout << endl;
+		cout << "\x1b[92m[+]Выберите один из вариантов: \x1b[0m" << endl;
+		int select3;
+		std::cin >> select3;
+
+		switch (select3)
+		{
+		case 1:
+			cout << "\x1b[93m[1]Перевод: Картошка -> potato\x1b[0m" << endl;
+			return 0;
+			break;
+		case 2:
+			cout << "\x1b[93m[2]Перевод: Морковь -> carrot\x1b[0m" << endl;
+			return 0;
+			break;
+		case 3:
+			cout << "\x1b[93m[3]Перевод: Машина -> car\x1b[0m" << endl;
+			return 0;
+			break;
+		case 4:
+			cout << "\x1b[93m[4]Перевод: Дом -> hause\x1b[0m" << endl;
+			return 0;
+			break;
+		case 5:
+			cout << "\x1b[93m[5]Перевод: Кот -> cat\x1b[0m" << endl;
+			return 0;
+			break;
+		case 6:
+			cout << "\x1b[93m[6]Перевод: Собака -> dog\x1b[0m" << endl;
+			return 0;
+			break;
+		case 7:
+			cout << "\x1b[93m[7]Перевод: Тарелка -> plate\x1b[0m" << endl;
+			return 0;
+			break;
+		case 8:
+			cout << "\x1b[93m[8]Перевод: Блюдце -> saucer\x1b[0m" << endl;
+			return 0;
+			break;
+		case 9:
+			cout << "\x1b[93m[9]Перевод: Плошка -> Bowl\x1b[0m" << endl;
+			return 0;
+			break;
+		case 10:
+			cout << "\x1b[93m[10]Перевод: Нож -> knife\x1b[0m" << endl;
+			return 0;
+			break;
+		case 11:
+			cout << "\x1b[93m[11]Перевод: Вилка -> fork\x1b[0m" << endl;
+			return 0;
+			break;
+		case 12:
+			cout << "\x1b[93m[12]Перевод: Лопата -> shovel\x1b[0m" << endl;
+			return 0;
+			break;
+		case 13:
+			cout << "\x1b[93m[13]Перевод: Дорога -> road\x1b[0m" << endl;
+			return 0;
+			break;
+		case 14:
+			cout << "\x1b[93m[14]Перевод: Зеркало -> mirror\x1b[0m" << endl;
+			return 0;
+			break;
+		case 15:
+			cout << "\x1b[93m[15]Перевод: Светофор -> traffic light\x1b[0m" << endl;
+			return 0;
+			break;
+		default:
+			cout << "\x1b[91m[+]Ошиба ввода\x1b[0m";
+			return 0;
+			break;
+		}
+
+		break;
+	case 3:
+		return 0;
+		break;
+	default:
+		cout << "\x1b[91m[+]Ошибка ввода! \x1b[0m" << endl;
+		break;
+	}
+
+
+
+
+	int _; std::cin >> _;
+	return 0;
+}

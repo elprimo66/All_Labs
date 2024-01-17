@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+
+	setlocale(0, "");
+
+	float number_from_user, number_from_user2;
+	float res;
+	char operation;
+
+
+	cout << "запишите первое число " << endl;
+	cin >> number_from_user;
+
+	cout << "запишите второе число " << endl;
+	cin >> number_from_user2;
+
+	cout << "запишите операцию (+; -; /; *; %) " << endl;
+	cin >> operation;
+	if (operation == '+' ) {
+		res = number_from_user + number_from_user2;
+		cout << "Результат: " << number_from_user << " " << operation << " " << number_from_user2 << " = " << res;
+		return 0;
+	}
+	else if (operation == '-') {
+		res = number_from_user - number_from_user2;
+		cout << "Результат: " << number_from_user << " " << operation << " " << number_from_user2 << " = " << res;
+		return 0;
+	}
+	else if (operation == '/') {
+		res = number_from_user / number_from_user2;
+		cout << "Результат: " << number_from_user << " " << operation << " " << number_from_user2 << " = " << res;
+		return 0;
+	}
+	else if (operation == '*') {
+		res = number_from_user * number_from_user2;
+		cout << "Результат: " << number_from_user << " " << operation << " " << number_from_user2 << " = " << res;
+		return 0;
+	}
+	else if (operation == '%') {
+		res = (int)number_from_user % (int)number_from_user2;
+		cout << "Результат: " << number_from_user << " " << operation << " " << number_from_user2 << " = " << res;
+		return 0;
+	}
+	else {
+		cout << "Неправильная операция";
+	}
+
+
+	
+
+
+
+
+
+
+
+
+
+	int _; cin >> _;
+	return 0;
+}

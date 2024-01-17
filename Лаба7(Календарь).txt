@@ -1,0 +1,126 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+
+	setlocale(0, "");
+
+	int mougth, day;
+	string Mougths[12]{ "Января","Февраля", "Марта", "Апреля", "Майя", "Июня", "Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря" };
+
+	cout << "[+] Месяца года" << endl;
+	cout << "[1] Январь" << endl;
+	cout << "[2] Февраль" << endl;
+	cout << "[3] Март" << endl;
+	cout << "[4] Апрель" << endl;
+	cout << "[5] Май" << endl;
+	cout << "[6] Июнь" << endl;
+	cout << "[7] Июль" << endl;
+	cout << "[8] Август" << endl;
+	cout << "[9] Сентябрь" << endl;
+	cout << "[10] Октябрь" << endl;
+	cout << "[11] Ноябрь" << endl;
+	cout << "[12] Декабрь" << endl;
+
+	cout << "[+] Выберите месяц: " << endl;
+	std::cin >> mougth;
+
+	switch (mougth)
+	{
+	case 1:
+		cout << "Выбран месяц: Январь" << endl;
+		break;
+
+	case 2:
+		cout << "Выбран месяц: Февраль" << endl;
+		break;
+	case 3:
+		cout << "Выбран месяц: Март" << endl;
+		break;
+	case 4:
+		cout << "Выбран месяц: Апрель" << endl;
+		break;
+	case 5:
+		cout << "Выбран месяц: Май" << endl;
+		break;
+	case 6:
+		cout << "Выбран месяц: Июнь" << endl;
+		break;
+	case 7:
+		cout << "Выбран месяц: Июль" << endl;
+		break;
+	case 8:
+		cout << "Выбран месяц: Август" << endl;
+		break;
+	case 9:
+		cout << "Выбран месяц: Сентябрь" << endl;
+		break;
+	case 10:
+		cout << "Выбран месяц: Октябрь" << endl;
+		break;
+	case 11:
+		cout << "Выбран месяц: Ноябрь" << endl;
+		break;
+	case 12:
+		cout << "Выбран месяц: Декабрь" << endl;
+		break;
+	default:
+		cout << "\x1b[91m[+] Не правильно введен номер месяяца!\x1b[0m" << endl;
+		return 0;
+		break;
+	}
+
+	cout << "[+] Выберите день: " << endl;
+	std::cin >> day;
+
+
+	switch (day)
+	{
+	case 1:
+	case 2:
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+		cout << "\x1b[93m[+] Календарь: " << day << " " << Mougths[mougth - 1] << "\x1b[0m";
+		return 0;
+		break;
+	default:
+		cout << "\x1b[91m[+] Не правильно введен номер дня!\x1b[0m" << endl;
+		return 0;
+		break;
+		
+	}
+
+
+
+
+	int _; cin >> _;
+	return 0;
+}

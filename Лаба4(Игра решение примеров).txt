@@ -1,0 +1,109 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+
+	setlocale(0, "");
+
+	int num, res, counter = 1;
+
+	cout << "Введите число ";
+	cin >> num;
+
+	cout << "Решите пример: " << num << " * " << counter << endl;
+	cin >> res;
+
+	if(res == (num * counter)) {
+		counter += 1;
+		cout << "\x1b[92mПравильно! Вы молодец :)" << "\x1b[0m" << endl;
+		cout << "Решите пример: " << num << " * " << counter << endl;
+		cin >> res;
+	}
+	else {
+		cout << "\x1b[91mВы ошиблись : (Досвидания" << endl;
+		return 0;
+	}
+	if (res == (num * counter)) {
+		counter += 1;
+		cout << "\x1b[92mПравильно! Вы молодец :)" << "\x1b[0m" << endl;
+		cout << "Решите пример: " << num << " * " << counter << endl;
+		cin >> res;
+	}
+	else {
+		cout << "\x1b[91mВы ошиблись : (Досвидания" << endl;
+		return 0;
+	}
+	if (res == (num * counter)) {
+		counter += 1;
+		cout << "\x1b[92mПравильно! Вы молодец :)" << "\x1b[0m" << endl;
+		cout << "Решите пример: " << num << " * " << counter << endl;
+		cin >> res;
+	}
+	else {
+		cout << "\x1b[91mВы ошиблись : (Досвидания" << endl;
+		return 0;
+	}
+	if (res == (num * counter)) {
+		counter += 1;
+		cout << "\x1b[92mПравильно! Вы молодец :)" << "\x1b[0m" << endl;
+		cout << "Решите пример: " << num << " * " << counter << endl;
+		cin >> res;
+	}
+	else {
+		cout << "\x1b[91mВы ошиблись : (Досвидания" << endl;
+		return 0;
+	}
+	if (res == (num * counter)) {
+		counter += 1;
+		cout << "\x1b[92mПравильно! Вы молодец :)" << "\x1b[0m" << endl;
+		cout << "Решите пример: " << num << " * " << counter << endl;
+		cin >> res;
+	}
+	else {
+		cout << "\x1b[91mВы ошиблись : (Досвидания" << endl;
+		return 0;
+	}
+	if (res == (num * counter)) {
+		counter += 1;
+		cout << "\x1b[92mПравильно! Вы молодец :)" << "\x1b[0m" << endl;
+		cout << "Решите пример: " << num << " * " << counter << endl;
+		cin >> res;
+	}
+	else {
+		cout << "\x1b[91mВы ошиблись : (Досвидания" << endl;
+		return 0;
+	}
+	if (res == (num * counter)) {
+		counter += 1;
+		cout << "\x1b[92mПравильно! Вы молодец :)" << "\x1b[0m" << endl;
+		cout << "Решите пример: " << num << " * " << counter << endl;
+		cin >> res;
+	}
+	else {
+		cout << "\x1b[91mВы ошиблись : (Досвидания" << endl;
+		return 0;
+	}
+	if (res == (num * counter)) {
+		counter += 1;
+		cout << "\x1b[92mПравильно! Вы молодец :)" << "\x1b[0m" << endl;
+		cout << "Решите пример: " << num << " * " << counter << endl;
+		cin >> res;
+	}
+	else {
+		cout << "\x1b[91mВы ошиблись : (Досвидания" << endl;
+		return 0;
+	}
+	if ((res == (num * counter))) {
+		cout << "\x1b[92mПоздравляем Вы решили все примеы!! Вы хорошо поработали :)" << "\x1b[0m" << endl;
+	}
+	else {
+		cout << "\x1b[91mВы ошиблись :( Досвидания" << endl;
+		return 0;
+	}
+
+
+
+	int _; cin >> _;
+	return 0;
+}
